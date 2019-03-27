@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PalindromeNumber",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "palindrome.PalindromeNumber",
+            "args": "",
+            "projectName": "PalindromeNumber"
+        }
+    ]
+}

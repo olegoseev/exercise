@@ -1,0 +1,78 @@
+================================
+Array is a list in general
+
+element accessed by an element index in the array
+
+access to an element:   fast - O(1)
+insert an element:      slow - O(n)
+
+================================
+Linked List is a list in general
+
+each element in Linked List has a reference to the next element
+in Doubled Linked List each element has references to next and previous elements
+
+access to an element:   slow - O(n)
+insert an element:      fast - O(1)
+
+================================
+Stack a list based data structure
+LinkedList can be turn into a stack in Python at least)
+The Python documentation shows how you can use built-in functions
+to turn your Python list into a stack. pop() is a given function,
+and append() is equivalent to a push function
+
+LIFO access
+
+access to an element:   fast - O(1) last element only
+insert an element:      fast - O(1) last element only
+
+=================================
+Queue a list based data structure
+FIFO access
+
+Enqueue - add an element in the tail of the queue
+Dequeue - remove an element from the head of the queue
+
+Types of Queue:
+Deques - double-ended queue. allows enqueue and dequeue from head and tail (both ways)
+Priority Queue - elements with highest priority removed first. if all elements
+    have same priority, it works like a normal queue
+    
+========================================================================================
+Algorithms
+========================================================================================
+
+Binary Search (sorted array)
+relation between the array size and iterations to find an element
+every time the array double the size one more iteration needed to run the algorithm
+
+Array Size  0   1   2   3   4   5   6   7   8
+Iterations  0   1   2   2   3   3   3   3   4
+                ^   ^       ^               ^
+                
+2^3 = 8 -> log(8) = 3 (log base 2 )
+
+Efficiency: O(log(n))
+
+=================================
+fibonacci
+
+iterative good for large numbers
+recursive probably faster than iterative when number is low
+
+=================================
+Sorting
+
+Bubble Sort
+Efficiency: best O(n), average O(n^2), worst O(n^2) (n comparisons in n iterations)
+Space complexity: O(1) no need extra space
+
+Merge Sort
+Efficiency: O(n*log(n)) (n comparisons in log(n) iterations)
+Space complexity: O(n) we always have a copy of the array we doing comparison
+
+Quick Sort
+Efficiency: worst O(n^2) average O(n*log(n))
+Space complexity: O(1)
+
