@@ -10,11 +10,7 @@ target/**
 
 ### STS ###
 .apt_generated
-#.classpath
 .factorypath
-#.project
-#.settings
-#.springBeans
 .sts4-cache
 
 ### IntelliJ IDEA ###
@@ -34,7 +30,6 @@ target/**
 
 # eclipse specific git ignore
 *.pydevproject
-.project
 .metadata
 bin/**
 tmp/**
@@ -44,7 +39,6 @@ tmp/**/*
 *.swp
 *~.nib
 local.properties
-.classpath
 .settings/
 .loadpath
 
